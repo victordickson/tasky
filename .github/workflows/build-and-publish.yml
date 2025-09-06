@@ -1,13 +1,13 @@
 name: Build and Push to ECR
 
-on:
-  push:
-    branches: ['main']
+# on:
+#   push:
+#     branches: ['main']    # uncomment
 
 env:
   AWS_REGION: 'eu-west-1'
   ECR_REPOSITORY: 'tasky'
-  ACCOUNT_ID: '024848444815'
+  ACCOUNT_ID: 'fill-in'
   ROLE_NAME: 'github-actions-role'
 
 permissions:
